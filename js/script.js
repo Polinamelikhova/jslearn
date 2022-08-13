@@ -1,17 +1,17 @@
 "use strict";
 
-let number = 5;
-const leftBordWidth = 1; 
-const obj = {
-    name: 'g',
-    age: 25,
-    isMarried: false
-};
+//let number = 5;
+//const leftBordWidth = 1; 
+//const obj = {
+//    name: 'g',
+//   age: 25,
+//    isMarried: false
+//};
 
-console.log(obj.age);
+//console.log(obj.age);
 
-let arr =['plum.png', 'orange.jpg', 6];
-console.log(arr[0]);
+//let arr =['plum.png', 'orange.jpg', 6];
+//console.log(arr[0]);
 
 
 
@@ -34,6 +34,26 @@ console.log(arr[0]);
 //document.write(answers);
 
 //интерполяция 
-const category = 'toys';
+//const category = 'toys';
 
-console.log(`https://someurl.com/${category}/5`);
+//console.log(`https://someurl.com/${category}/5`);
+
+//Практика
+
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('На сколько оцените его?', '');
+      personalMovieDB.movies[a] = b;
+      personalMovieDB.movies[c] = d;
+console.log(personalMovieDB);
