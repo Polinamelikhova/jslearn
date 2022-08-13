@@ -25,10 +25,15 @@ console.log(arr[0]);
 
 //+prompt будет давать число 
 
-const answers = [];
+//const answers = [];
 
-answers[0] = prompt('Как ваше имя?', '');
-answers[1] = prompt('Как ваше фамилия?', '');
-answers[2] = prompt('Сколько вам лет?', '');
+//answers[0] = prompt('Как ваше имя?', '');
+//answers[1] = prompt('Как ваше фамилия?', '');
+//answers[2] = prompt('Сколько вам лет?', '');
 
-document.write(answers);
+//document.write(answers);
+
+//интерполяция 
+const category = 'toys';
+
+console.log(`https://someurl.com/${category}/5`);
